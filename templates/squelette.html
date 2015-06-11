@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" />
+        <title>{% block titre %} {% endblock %}</title>
+        <h1>Thangui</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/jeux/">Jeux</a></li>
+                <li><a href="/portfolio/">Portfolio</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </head>
+    <body>
+        {% block form_contact %} {% endblock %}
+        {% block test %} {% endblock %}
+        {% block list_jeux %} {% endblock %}
+    </body>
+</html>
